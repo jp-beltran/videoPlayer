@@ -120,7 +120,7 @@ Este projeto usa o `json-server` para criar uma API REST fake.
 3. Inicie o `json-server`:
 
    ```bash
-   json-server --watch db.json --port 3000
+   npm run server
    ```
 
 4. Certifique-se de que a aplicação está configurada para consumir os dados da API em `http://localhost:3000`.
