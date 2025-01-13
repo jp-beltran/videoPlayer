@@ -1,6 +1,8 @@
 # Video Player
 
 Este é um projeto de um Player de vídeo desenvolvido com base no curso da **Rocketseat**. Ele utiliza diversas tecnologias modernas para criar uma aplicação funcional e bem estruturada.
+![image](https://github.com/user-attachments/assets/cd2613be-fa04-4025-bd27-fab46339e057)
+
 
 ## Tecnologias Utilizadas
 
