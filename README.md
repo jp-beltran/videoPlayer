@@ -29,13 +29,13 @@ Siga os passos abaixo para clonar e rodar o projeto localmente:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/jp-beltran/videoPlayer.git
    ```
 
 2. Entre na pasta do projeto:
 
    ```bash
-   cd seu-repositorio
+   cd videoPlayer
    ```
 
 3. Instale as dependências:
@@ -63,16 +63,17 @@ Siga os passos abaixo para clonar e rodar o projeto localmente:
 ├── src
 │   ├── components
 │   │   ├── Header.tsx       # Componente do cabeçalho
+|   |   ├── Lesson.tsx       # Componente de Aulas
 │   │   ├── Module.tsx       # Componente de módulos
 │   │   └── Video.tsx        # Componente do player de vídeo
+│   ├── lib
+│   │   └── axios.ts         # Instância do Axios
 │   ├── pages
 │   │   └── Player.tsx       # Página principal do player
 │   ├── store
 │   │   ├── index.ts         # Configuração do Redux
 │   │   └── slices
 │   │       └── playerSlice.ts  # Lógica de estado para o player
-│   ├── lib
-│   │   └── axios.ts         # Instância do Axios
 │   ├── App.tsx              # Componente raiz
 │   ├── main.tsx             # Ponto de entrada do React
 │   └── index.css            # Estilos globais
